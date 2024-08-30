@@ -10,10 +10,12 @@ print(my_dict)
 print(my_dict['Vova'])
 print(my_dict.get('Adam'))
 my_dict['Eva'] = 1000
-my_dict['Adam'] = 1000
+my_dict['Adam'] = 999
 print(my_dict)
-del my_dict['Eva']
+b = my_dict.pop('Eva')
+print(b)
 print(my_dict.get('Eva', 'Ева удалена из рая'))
+print(my_dict.get('Adam', 'Adam удалена из рая'))
 print(my_dict)
 
 #абота с множествами:
