@@ -8,7 +8,7 @@ def generate_password(n):
 
             if n % pair_sum == 0:
                 password += str(i)+ str(",") + str(j)+ str(" ")
-                print(f' for1: {i}   for2: {j}')
+                
 
     return password
 
