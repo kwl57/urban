@@ -1,3 +1,5 @@
+
+
 data_structure = [[1, 2, 3], {'a': 4, 'b': 5}, (6, {'cube': 7, 'drum': 8}), "Hello", ((), [{(2, 'Urban', ('Urban2', 35))}])]
 
 def cont (data):
@@ -24,4 +26,4 @@ def cont (data):
 
 
 result = cont(data_structure)
-print(result)
+print("Сумма всех чисел и длин всех строк: ", result)
