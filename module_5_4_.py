@@ -27,5 +27,8 @@ h3 = House('ЖК Матрёшки', 20)
 print(House.houses_history)
 del h3
 
-
-print("Все дома снесены вместе с историей")
+print("Все дома снесены ")
+h4 = House('ЖК Марс', 20)
+print(House.houses_history)
+del h4
+print("Выходим  из модул  и все сносим!!! ")
