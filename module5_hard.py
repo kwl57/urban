@@ -63,6 +63,7 @@ class UrTube:
         else:
             self.users.append(new_user)
             self.current_user = new_user
+            print(f"Пользователь {nickname} вошел в систему.")
 
     def log_out(self):
         if self.current_user:
@@ -106,7 +107,7 @@ class UrTube:
 # Код для проверки:
 ur = UrTube()
 v1 = Video('Лучший язык программирования 2024 года',200)
-v2 = Video('Для чего девушкам парень программист?', 10,3, adult_mode=True)
+v2 = Video('Для чего девушкам парень программист?', 10,0, adult_mode=True)
 
 # Добавление видео
 ur.add(v1, v2)
