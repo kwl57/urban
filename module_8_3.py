@@ -8,6 +8,7 @@
 Метод __is_valid_numbers(numbers) - принимает numbers и проверяет его на корректность.
 Возвращает True, если корректный, в других случаях выбрасывает исключение.
 Уровень доступа private.'''
+
 class Car:
     def __init__(self, model: str, vin: int, __numbers: str):
         self.model = model
@@ -24,6 +25,7 @@ class Car:
 # Выбрасывает исключение IncorrectVinNumber с сообщением
 # 'Неверный диапазон для vin номера', если переданное число находится не в диапазоне от 1000000 до 9999999 включительно.
 # Возвращает True, если исключения не были выброшены.
+    
     def __is_valid_vin(self,vin_number):
         if not isinstance(vin_number, int):
             raise IncorrectVinNumber('Некорректный тип vin номер')
