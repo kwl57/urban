@@ -19,7 +19,7 @@ def main_x1():
 def main_x(np=4):
     fnames = [f'file {_}.txt' for _ in range(1, 5)]
     time = datetime.datetime.now()
-    with Pool(processes=4) as pool:
+    with Pool(processes=np) as pool:
         pool.map(read_info, fnames)
     print(f'main_x{np}', datetime.datetime.now() - time)
 
