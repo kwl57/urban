@@ -27,3 +27,4 @@ if __name__ == '__main__':
     main_x1()
     main_x(np=2)
     main_x(np=3)
+    main_x(np=4)
