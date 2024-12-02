@@ -43,7 +43,7 @@ age = age + 1
 print("New Age:", age)
 is_student = True
 print("is student:", is_student)
-№-------------------------------------------
+#-------------------------------------------
 #урок 1_4
 my_dict = {'Ivan': 1972, 'Yuriy': 1962, 'Anatoliy': 1952, 'Serg': 1968}
 print('Dict:', my_dict)
@@ -90,7 +90,8 @@ print(my_string[-1])
 print('Урок 1_8')
 immutable_var = (1, 2, 3, 4, "a", "b")
 print(immutable_var)
-immutable_var[0] = 111
+#immutable_var[0] = 111
+#TypeError: 'tuple' object does not support item assignment
 print(immutable_var)
 mutable_list = [1, 2, 3, 4, "a", "b"]
 print(mutable_list)
