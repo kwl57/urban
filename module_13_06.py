@@ -31,7 +31,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import logging
 
 logging.basicConfig(level=logging.INFO)
-api = '7941202954:AAHxROKXFx0Rrp9N4R0EFUdTvwFUOp9Q3LI'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
